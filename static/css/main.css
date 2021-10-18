@@ -1,0 +1,108 @@
+.outer-wrapper {
+    background-color: #FAF3F3;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.intro {
+    background-color: #E1E5EA;
+    border-radius: 20px;
+    margin: 5%;
+}
+
+
+.intro > img {
+    border-radius: 50%;
+    display: block;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 0px 20px 0px;
+    min-width: 280px;
+    width: 300px;
+}
+
+.intro > h1 {
+    padding: 0px 0px 30px 0px;
+    text-align: center;
+}
+
+.top-container {
+    align-items: stretch;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 30px;
+    margin: 0 5% 0 5%;
+    width: 90%;
+}
+
+.flex-item {
+  background: #E1E5EA;
+  border-radius: 20px;
+  color: black;
+  flex: 1;
+  font-weight: bold;
+  margin-top: 10px;
+  min-width: 200px;
+  padding: 5px;
+  text-align: center;
+  width: 40%;
+}
+
+.flex-item > .skill-list {
+    color: black;
+    line-height: 75%;
+}
+
+.flex-item > h3 > a {
+    color: inherit;
+}
+
+.flex-item > ul > li {
+    list-style-position: inside;
+}
+
+.flex-item > table {
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.flex-item > table > tbody > tr > td {
+    width: 50%;
+}
+
+.flex-item > table > tbody > tr > .job-head {
+    text-align: left;
+    vertical-align: top;
+}
+
+.flex-item > table > tbody > tr > .job-head > a {
+    color: inherit;
+}
+
+.inner-text {
+    font-weight: 300;
+}
+
+.inherit-color {
+    color: inherit;
+}
+
+
+.skills {
+    background-color: #E1E5EA;
+    border-radius: 5px;
+    float: left;
+    min-width: 400px;
+    width: 40%;
+}
+
+.projects {
+    background-color: #E1E5EA;
+    border-radius: 5px;
+    flex-grow: 1;
+    float: right;
+    min-width: 400px;
+    align: right;
+    width: 40%;
+}
+
